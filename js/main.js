@@ -28,7 +28,7 @@ var mychart = new Chart(ctx, {
         }]
     },
     options: {
-        legend: { display: true },
+        legend: { display: false },
         title: {
             display: true,
             text: "Population by Ethinicity"
@@ -51,9 +51,9 @@ var mychartbar = new Chart(ctx1, {
         }]
     },
     options: {
-        legend: { display: true },
+        legend: { display: false },
         title: {
-            display: false,
+            display: true,
             text: "Population by Age Group"
         }
     }
