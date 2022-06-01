@@ -115,9 +115,22 @@ ul.a {
 
 /*Set background image*/
 .sports {
-    background-image: url('.img/champabay3.webp');
+    background-image: url('./img/champabay3.webp');
     height: 75%;
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
