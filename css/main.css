@@ -113,3 +113,11 @@ ul.a {
     list-style-type: circle;
 }
 
+/*Set background image*/
+.sports {
+    background-image: url('.img/champabay3.webp');
+    height: 75%;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
